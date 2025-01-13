@@ -1,0 +1,1 @@
+//Contains some examples on how you could create some rad functions for your website
