@@ -4,11 +4,11 @@ In this repository, anyone can contribute to the site with their own created sit
 * [Forking the repository (Required)](#forking-the-repository)
 * [Website Setup](#website-setup)
 * [Adding the website](#adding-the-website)
-* [Misc things](#miscellaneous)
+* [Misc things](#miscellaneous-things)
 
 
 
-## Forking the repository (Required)
+## Forking the repository
 However, you'll need to learn how to fork this repository so that you can have your own copy to work off of.
 
 **A tutorial can be found here:** https://www.youtube.com/watch?v=N12wZBzG4Hw
