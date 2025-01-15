@@ -61,13 +61,6 @@ p{
     height: 200px;
 }
 
-.testing {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    row-gap: 50%;
-}
-
 .gridSize {
     display: grid;
     align-content: center;
