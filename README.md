@@ -47,9 +47,16 @@ What some contributers could do is help fix the website, and in return, earn __M
 | Medium     | 6 MOMOCOINS    |
 | Hard       | 10 MOMOCOINS   |
 
+
+
+| Misc categories | MOMOCOING Value |
+|-----------------|-----------------|
+| Publish a Site (MAX 3) | 2 MOMOCOINS |
+| Assisting others | 3 MOMOCOINS    |
+
 ### RULES
-1. The issues will stay open until the contributions have ceased. After this, the issue will be closed and can no longer be attempted.
-2. Being first doesn't mean you win. This is a collaboration issue and is open to anyone. Points will be distributed fairly.
+1. Being first doesn't mean you win. This is a collaboration issue and is open to anyone. Points will be distributed fairly.
+2. The issues will stay open until the contributions have ceased. After this, the issue will be closed and can no longer be attempted.
 3. Good luck and have fun!
 
 ## Resources
