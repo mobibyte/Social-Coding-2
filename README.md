@@ -4,8 +4,9 @@ In this repository, anyone can contribute to the site with their own created sit
 * [Forking the repository (Required)](#forking-the-repository)
 * [Website Setup](#website-setup)
 * [Adding the website](#adding-the-website)
-* [Misc things](#miscellaneous-things)
-
+* [Incentives and Collaboration](#incentives)
+  * [Rules](#rules)
+* [Resources](#resources)
 
 
 ## Forking the repository
@@ -34,10 +35,23 @@ Within the file, you'll need to add:
 
 ![image](https://github.com/user-attachments/assets/376f517b-8721-4ea8-ab4a-8c9d1198ea07)
 
-## Miscellaneous Things
-There are othing things to do besides contributing towards your site. There could be issues that you could attempt with yourself, or with a friend.
+## Incentives
+One thing that is different this social coding is that there are some issues that span from Easy to Hard difficulty! Take a shot at the issues!
+What some contributers could do is help fix the website, and in return, earn __MOMOCOINS__ to spend.
 
+**DISCLAIMER: AT THIS MOMENT, __MOMOCOINS__ HAVE NO VALUE BUT ARE GOOD TO EARN NONETHELESS. MIGHT BE USEFUL LATER**
 
+| Difficulty | MOMOCOIN Value |
+|------------|----------------|
+| Easy       | 3 MOMOCOINS    |
+| Medium     | 6 MOMOCOINS    |
+| Hard       | 10 MOMOCOINS   |
+
+## Resources
+There are some resources that could help you out on building your website! It may also help you understand documentation!
+
+__MDN Docs:__ https://developer.mozilla.org/en-US/
+__W3Schools:__ https://www.w3schools.com/
 
 
 
