@@ -4,7 +4,7 @@ In this repository, anyone can contribute to the site with their own created sit
 * [Forking the repository (Required)](#forking-the-repository)
 * [Website Setup](#website-setup)
 * [Adding the website](#adding-the-website)
-* [Incentives and Collaboration](#incentives)
+* [Incentives](#incentives)
   * [Rules](#rules)
 * [Resources](#resources)
 
