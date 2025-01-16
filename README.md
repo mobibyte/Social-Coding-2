@@ -37,10 +37,12 @@ Within the file, you'll need to add:
 
 ## Incentives
 One thing that is different this social coding is that there are some issues that span from Easy to Hard difficulty! Take a shot at the issues!
+
 What some contributers could do is help fix the website, and in return, earn __MOMOCOINS__ to spend.
 
 **DISCLAIMER: AT THIS MOMENT, __MOMOCOINS__ HAVE NO VALUE BUT ARE GOOD TO EARN NONETHELESS. MIGHT BE USEFUL LATER**
 
+__Issues__
 | Difficulty | MOMOCOIN Value |
 |------------|----------------|
 | Easy       | 3 MOMOCOINS    |
@@ -48,7 +50,7 @@ What some contributers could do is help fix the website, and in return, earn __M
 | Hard       | 10 MOMOCOINS   |
 
 
-
+__Other__
 | Misc categories | MOMOCOING Value |
 |-----------------|-----------------|
 | Attendance      | 1 MOMOCOIN      |
@@ -64,6 +66,7 @@ What some contributers could do is help fix the website, and in return, earn __M
 There are some resources that could help you out on building your website! It may also help you understand documentation!
 
 __MDN Docs:__ https://developer.mozilla.org/en-US/
+
 __W3Schools:__ https://www.w3schools.com/
 
 
