@@ -51,6 +51,7 @@ What some contributers could do is help fix the website, and in return, earn __M
 
 | Misc categories | MOMOCOING Value |
 |-----------------|-----------------|
+| Attendance      | 1 MOMOCOIN      |
 | Publish a Site (MAX 3) | 2 MOMOCOINS |
 | Assisting others | 3 MOMOCOINS    |
 
