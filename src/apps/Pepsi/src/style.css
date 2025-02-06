@@ -1,0 +1,31 @@
+.banana-body { 
+    background-color: yellow;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.banana-button {
+    border: 5px;
+    border-style: solid;
+}
+
+.banana-upgrades {
+    display: flexbox;
+    border: 5px;
+}
+
+.button-normal {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.button-poor {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+    background-color: red;
+}
+

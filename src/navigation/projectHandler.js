@@ -7,11 +7,13 @@ let apps = [
     },
     {
         title: "Pepsi's Website",
-        link: "../apps/example/example.html",
-        author: "Jane Doe"
+        link: "../apps/Pepsi/src/Main_View.html",
+        author: "Pepsi"
     },
 ];
 
+
+// Don't mess with this stuff please :D (This handles the website stuff, as for appDisplay() as well)
 function appProperty(app) {
     return `
     <div class="">
