@@ -2,7 +2,6 @@ let apps = [
     {
         title: "Example Website",
         link: "../apps/example/example.html",
-        coverImg: "../apps/example/placeholder.png",
         author: "Jane Doe"
     },
     {
