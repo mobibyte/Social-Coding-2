@@ -1,54 +1,32 @@
-
-/* This is where you can edit how the page looks and change its layout (background color, positioning, animations, etc.) */
-
-
-/* CSS Variables */
-
-/* You can change variables here to change it across the entire stylesheet */
-:root {
-    /* To add a variable, add "--" to the front of the name and make sure to end it with a semi-colon; */
-    --background-color: #04182b;
-    --text-color: #f7fbff;
-}
-
-/* To use the variables, type the variable name inside a tag like this for the property: var(--background-color) and that's it! */
-
-body{
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 h1{
+    color: white;
     text-align: center;
 }
 
 h2{
+    color: white;
     text-align: center;
     margin-top: 50px;
 }
 
-a {
-    all: unset;
+body{
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p{
+    color: white;
     text-align: center;
-}
-
-#Navbar {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 32px auto;
 }
 
 .navButton{
+    background-color: black;
+    color: white;
     border-style: solid;
     border-radius: 25px;
     border-color: white;
-    padding: 16px 48px;
-    margin: 0 8px;
+    width: 200px;
+    height: 75px;
 }
 
 .navButton:hover{
@@ -75,10 +53,6 @@ p{
     row-gap: 50%;
 }
 
-.center-text {
-    text-align: center;
-}
-
 .logo{
     display: block;
     margin-left: auto;
@@ -99,6 +73,7 @@ p{
     border: 5px solid white;
     background-size: cover;
     border-radius: 25px;
+    color: white;
     padding: 100px;
     font-size: 25px;
     text-align: center;
