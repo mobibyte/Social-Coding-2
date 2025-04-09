@@ -172,6 +172,41 @@
             margin-top: 50px;
         }
 
+        .events-list {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 30px auto;
+        }
+
+        .event-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #333;
+        }
+
+        .event-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .event-title {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .event-date {
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+
+        .event-description {
+            margin-top: 10px;
+        }
+
         @media (max-width: 768px) {
             nav {
                 flex-direction: column;
@@ -186,6 +221,15 @@
                 width: 50px;
                 height: 50px;
             }
+            
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .feature-card {
+                width: 80%;
+            }
         }
     </style>
 </head>
@@ -194,7 +238,7 @@
     <header>
         <nav>
             <a href="src/navigation/projects.html"><button class="navButton">Projects</button></a>
-            <a href="https://mavengage.uta.edu/organization/mobi/events"><button class="navButton">Events</button></a>
+            <a href="#events"><button class="navButton">Events</button></a>
             <a href="#features"><button class="navButton">Features</button></a>
             <a href="#about"><button class="navButton">About</button></a>
         </nav>
@@ -214,15 +258,36 @@
             </div>
             <div class="feature-card">
                 <div class="feature-icon"><i class="fas fa-calendar-alt"></i></div>
-                <h3>Regular Events</h3>
-                <p>Join our workshops, hackathons, and coding challenges to improve your skills.</p>
+                <h3>Upcoming Events</h3>
+                <p>Check out our workshops and coding sessions below!</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon"><i class="fas fa-users"></i></div>
                 <h3>Community</h3>
-                <p>Connect with like-minded individuals and build your professional network.</p>
+                <p>Connect with friends and like-minded individuals.</p>
             </div>
         </div>
+
+        <section id="events" class="events-section">
+            <h2 style="text-align: center; margin-top: 50px;">Upcoming Events</h2>
+            <div class="events-list">
+                <div class="event-item">
+                    <div class="event-title">Weekly Coding Meetup</div>
+                    <div class="event-date">Every Wednesday, 6:00 PM</div>
+                    <div class="event-description">Join us for our weekly coding session where we work on projects together and help each other learn.</div>
+                </div>
+                <div class="event-item">
+                    <div class="event-title">MOBI Hackathon</div>
+                    <div class="event-date">November 15-17, 2023</div>
+                    <div class="event-description">Our annual 48-hour hackathon with prizes, workshops, and fun challenges!</div>
+                </div>
+                <div class="event-item">
+                    <div class="event-title">Git/GitHub Workshop</div>
+                    <div class="event-date">October 28, 2023 - 2:00 PM</div>
+                    <div class="event-description">Learn version control and collaborative coding with Git and GitHub.</div>
+                </div>
+            </div>
+        </section>
 
         <p>Feel free to take a look at our socials</p>
         <div class="centerButtons">
@@ -286,6 +351,16 @@
                     behavior: 'smooth'
                 });
             });
+        });
+
+        // Simple event countdown (example)
+        const eventDates = document.querySelectorAll('.event-date');
+        eventDates.forEach(dateElement => {
+            const dateText = dateElement.textContent;
+            if (dateText.includes('Every')) {
+                // For recurring events
+                dateElement.innerHTML = `${dateText} <span class="recurring-badge">(Recurring)</span>`;
+            }
         });
     </script>
 </body>
