@@ -1,44 +1,292 @@
 <!DOCTYPE html>
-<!--What the tab bar would say-->
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Coding 2</title>
     <meta name="site_name" content="MOBI" /> 
     <meta name="type" content="Website" />
     <meta name="description" content="MOBI Social Coding 2" />
-    <link rel="stylesheet" href="src/public/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.come/releases">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" type="image/png" href="./src/public/MOBI_Logo.png">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --primary-color: #bb86fc;
+            --secondary-color: #03dac6;
+            --card-bg: #1e1e1e;
+            --nav-bg: #1a1a1a;
+            --hover-color: #3700b3;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: var(--nav-bg);
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .navButton {
+            background-color: var(--primary-color);
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .navButton:hover {
+            background-color: var(--hover-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .logo {
+            display: block;
+            margin: 30px auto;
+            max-width: 150px;
+            filter: drop-shadow(0 0 10px rgba(187, 134, 252, 0.5));
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+            font-size: 1.1rem;
+        }
+
+        .centerButtons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .socialIcon {
+            width: 60px;
+            height: 60px;
+            transition: all 0.3s ease;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: var(--card-bg);
+        }
+
+        .socialIcon:hover {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 0 15px var(--primary-color);
+        }
+
+        .theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: #000;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+
+        .theme-toggle:hover {
+            background-color: var(--hover-color);
+            color: white;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 50px 0;
+            gap: 20px;
+        }
+
+        .feature-card {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: var(--nav-bg);
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .centerButtons {
+                gap: 15px;
+            }
+            
+            .socialIcon {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
 </head>
 
-<!--Main part of the document. What is seen.-->
 <body>
-    <div>
-        <h2>
+    <header>
+        <nav>
             <a href="src/navigation/projects.html"><button class="navButton">Projects</button></a>
             <a href="https://mavengage.uta.edu/organization/mobi/events"><button class="navButton">Events</button></a>
-        </h2>
+            <a href="#features"><button class="navButton">Features</button></a>
+            <a href="#about"><button class="navButton">About</button></a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="src/public/MOBI_Logo.png" class="logo" alt="MOBI Logo">
+        <h1>Social Coding Website 2</h1>
+        <p>Hi! Welcome to the Social Coding Website! (Part 2)</p>
+        <p>Join our community of developers and collaborate on exciting projects while learning new skills.</p>
+        
+        <div id="features" class="features">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-code"></i></div>
+                <h3>Collaborative Coding</h3>
+                <p>Work together on projects with developers of all skill levels in a supportive environment.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-calendar-alt"></i></div>
+                <h3>Regular Events</h3>
+                <p>Join our workshops, hackathons, and coding challenges to improve your skills.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-users"></i></div>
+                <h3>Community</h3>
+                <p>Connect with like-minded individuals and build your professional network.</p>
+            </div>
+        </div>
+
+        <p>Feel free to take a look at our socials</p>
+        <div class="centerButtons">
+            <a href="https://discord.com/invite/pjjgRC7ErT" aria-label="Discord">
+                <img class="socialIcon" src="https://static.cdnlogo.com/logos/d/64/discord.png" alt="Discord">
+            </a>
+            <a href="https://www.youtube.com/@mobibyte" aria-label="YouTube">
+                <img class="socialIcon" src="https://static.cdnlogo.com/logos/y/83/youtube-play.svg" alt="YouTube">
+            </a>
+            <a href="https://github.com/mobibyte" aria-label="GitHub">
+                <img class="socialIcon" src="https://static.cdnlogo.com/logos/g/60/github-icon.svg" alt="GitHub">
+            </a>        
+        </div>
+
+        <section id="about" class="about-section">
+            <h2>About MOBI</h2>
+            <p>MOBI is a student organization dedicated to fostering a community of developers and tech enthusiasts. 
+               We provide opportunities for learning, collaboration, and professional growth through various events 
+               and projects.</p>
+        </section>
     </div>
-    <img src="src/public/MOBI_Logo.png" class="logo">
-    <h1> Social Coding Webiste 2</h1>
-    <p>Hi! Welcome to the Social Coding Website! (Part 2)</p>
-    <!-- Unmark this for showing off example -->
-    <!-- <p>Enjoy your stay!</p>
-    <p>I hope you have a good day!</p>  -->
-    
-    <p>Feel free to take a look at our socials</p>
-    <div class="centerButtons">
-        <a href="https://discord.com/invite/pjjgRC7ErT">
-            <img class="socialIcon" src="https://static.cdnlogo.com/logos/d/64/discord.png">
-        </a>
-        <a href="https://www.youtube.com/@mobibyte">
-            <img class="socialIcon" src="https://static.cdnlogo.com/logos/y/83/youtube-play.svg">
-        </a>
-        <a href="https://github.com/mobibyte">
-            <img class="socialIcon" src="https://static.cdnlogo.com/logos/g/60/github-icon.svg">
-        </a>        
-    </div>
-    <!-- <div>
-        <h1><u>Today's Showcase:</u></h1>
-         <a id="showcase"></a>
-    </div> -->
-</body> 
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <footer>
+        <p>&copy; 2023 MOBI Social Coding. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        let isDark = true;
+
+        themeToggle.addEventListener('click', () => {
+            isDark = !isDark;
+            if (isDark) {
+                // Switch to dark theme
+                document.documentElement.style.setProperty('--bg-color', '#121212');
+                document.documentElement.style.setProperty('--text-color', '#e0e0e0');
+                document.documentElement.style.setProperty('--card-bg', '#1e1e1e');
+                document.documentElement.style.setProperty('--nav-bg', '#1a1a1a');
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+            } else {
+                // Switch to light theme
+                document.documentElement.style.setProperty('--bg-color', '#f5f5f5');
+                document.documentElement.style.setProperty('--text-color', '#333333');
+                document.documentElement.style.setProperty('--card-bg', '#ffffff');
+                document.documentElement.style.setProperty('--nav-bg', '#e0e0e0');
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
