@@ -4,8 +4,6 @@ In this repository, anyone can contribute to the site with their own created sit
 * [Forking the repository (Required)](#forking-the-repository)
 * [Website Setup](#website-setup)
 * [Adding the website](#adding-the-website)
-* [Incentives](#incentives)
-  * [Rules](#rules)
 * [Resources](#resources)
 
 
@@ -34,33 +32,6 @@ Within the file, you'll need to add:
 * Author's Name
 
 ![image](https://github.com/user-attachments/assets/376f517b-8721-4ea8-ab4a-8c9d1198ea07)
-
-## Incentives
-One thing that is different this social coding is that there are some issues that span from Easy to Hard difficulty! Take a shot at the issues!
-
-What some contributers could do is help fix the website, and in return, earn __MOMOCOINS__ to spend.
-
-**DISCLAIMER: AT THIS MOMENT, __MOMOCOINS__ HAVE NO VALUE BUT ARE GOOD TO EARN NONETHELESS. MIGHT BE USEFUL LATER**
-
-__Issues__
-| Difficulty | MOMOCOIN Value |
-|------------|----------------|
-| Easy       | 3 MOMOCOINS    |
-| Medium     | 6 MOMOCOINS    |
-| Hard       | 10 MOMOCOINS   |
-
-
-__Other__
-| Misc categories | MOMOCOING Value |
-|-----------------|-----------------|
-| Attendance      | 1 MOMOCOIN      |
-| Publish a Site (MAX 3) | 2 MOMOCOINS |
-| Assisting others | 3 MOMOCOINS    |
-
-### RULES
-1. Being first doesn't mean you win. This is a collaboration issue and is open to anyone. Points will be distributed fairly.
-2. The issues will stay open until the contributions have ceased. After this, the issue will be closed and can no longer be attempted.
-3. Good luck and have fun!
 
 ## Resources
 There are some resources that could help you out on building your website! It may also help you understand documentation!
